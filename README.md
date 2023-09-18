@@ -30,7 +30,7 @@ This project utilizes the Selenium WebDriver to automate a workflow of booking a
 Clone the repository from GitHub/Bitbucket to your local machine.
 
 ```sh
-git clone <repository_url>
+git clone [<repository_url>](https://github.com/ConnalATU/RyanairTest_Node)
 ```
 
 Navigate to the project directory and install the necessary npm packages:
