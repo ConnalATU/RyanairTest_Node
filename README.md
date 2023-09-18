@@ -58,8 +58,8 @@ This will execute all the tests defined in the `ryanairtest.js` file.
    
 2. Create a `Dockerfile` in your project directory with the necessary configurations to set up the environment for your Node.js application. Here is a example of what your `Dockerfile` might look like: Note : All dockerfiles have been uploaded to the github repo. Skip steps 2 and 3 if downloaded from repo.
 
-Dockerfile
-   # Use the official Node.js 16.4.1 image
+```dockerfile
+# Use the official Node.js 16.4.1 image
 FROM node:16.4.1
 
 # Set the working directory
@@ -79,7 +79,7 @@ EXPOSE 80
 
 # Run the command to start your application
 CMD [ "npm", "test" ]
-
+```
 
 
 3. Next, create a `docker-compose.yml` file in your project directory with the following content:
