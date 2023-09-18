@@ -27,7 +27,7 @@ This project utilizes the Selenium WebDriver to automate a workflow of booking a
 
 ## Getting Started
 
-Clone the repository from GitHub/Bitbucket to your local machine.
+Clone the repository from GitHub to your local machine.
 
 ```sh
 git clone https://github.com/ConnalATU/RyanairTest_Node
