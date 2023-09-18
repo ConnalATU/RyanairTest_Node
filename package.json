@@ -1,0 +1,16 @@
+
+
+{
+  "name": "selenium-tests",
+  "version": "1.0.0",
+  "description": "Selenium tests for Ryanair website",
+  "main": "ryanairTest.js",
+  "dependencies": {
+    "chromedriver": "^116.0.0",
+    "mocha": "^10.2.0",
+    "selenium-webdriver": "^4.12.0"
+  },
+  "scripts": {
+    "test": "mocha ryanairTest.js"
+  }
+}

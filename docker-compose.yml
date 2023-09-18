@@ -1,0 +1,16 @@
+version: '3'
+services:
+  web:
+    image: connalreilly/new:latest
+    depends_on: 
+      - selenium
+    build: .
+    volumes:
+      - .:/usr/src/app
+    environment:
+      - SELENIUM_HOST=selenium
+      - SELENIUM_PORT=4444
+  selenium:
+    image: selenium/standalone-chrome:94.0
+    ports:
+      - "4444:4444"
